@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html> <title>Plotter...</title>
+<head>
+    <p><h2>Plotter</h2></p>
+</head>
+
+
+<script>
+    function refresh() {
+        document.getElementById('plotter').src = 'plotter.png';
+    }
+</script>
+
+<body onLoad="setInterval(refresh, 1000)">
+<p id="demo"></p>
+<img id="plotter" height="600" width="800"/>
+</body>
+
+</html>
